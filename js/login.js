@@ -10,3 +10,7 @@ function login(){
         window.location.href = "./index.html";
     }
 }
+
+const ingresarBtn = document.getElementById("ingresar");
+
+ingresarBtn.addEventListener("click", login);
