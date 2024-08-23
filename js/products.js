@@ -5,11 +5,13 @@ const dataContainer = document.getElementById("dataContainer");
 function mostrarData(dataURL) {
     for(const item of dataURL) {
         dataContainer.innerHTML += `
+        <div class="producto">
         <img src="${item.image}" alt="${item.name}" class="imgProducto">
         <h2 class="nameProducto">${item.name}</h2>
         <p class="descProducto">${item.description}</p>
-        <p class="precioProducto">Precio: ${item.currency} ${item.cost}</p>
-        <p class="vendidosProducto">Unidades vendidas: ${item.soldCount}<p>
+        <p class="precioProducto"><strong>Precio:</strong> ${item.currency} ${item.cost}</p>
+        <p class="vendidosProducto"><strong>Unidades vendidas:</strong> ${item.soldCount}<p>
+        </div>
         `;
     }
 }
