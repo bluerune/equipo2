@@ -37,6 +37,16 @@
     </div>
   </nav>
   <main class="pb-5 container">
+    <form id="formulario-busqueda" action="/search" method="get">
+      <div class="barra-busqueda">
+        <img src="./img/search-icon.png" alt="Buscar" class="imagen-busqueda">
+        <input type="text" id="entrada-busqueda" name="query" placeholder="" required>
+      </div>
+      <div>
+        <img src="./img/flecha-derecha.png">
+        <img src="./img/flecha-derecha.png">
+      </div>
+
     <!--
     <div class="container">
       <div class="alert alert-danger text-center" role="alert">
@@ -45,7 +55,9 @@
     </div> -->
 
     <!-- Contenedor de los productos -->
-    <div id="dataContainer"></div>
+    <div id="dataContainer">
+
+    </div>
 
   </main>
   <footer class="text-muted">
