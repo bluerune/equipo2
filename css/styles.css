@@ -188,3 +188,17 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+/* -------PRODUCTS-------- */
+
+#dataContainer {
+  border: solid 1px gray
+}
+
+.imagen-busqueda {
+  width: 20px;
+} 
+
+.flechas {
+  width: 40px;
+}
