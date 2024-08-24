@@ -191,6 +191,12 @@ a.custom-card:hover {
 
 /* --- PRODUCTOS --- */
 
+.barra-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .barra-busqueda {
   display: flex;
 }
