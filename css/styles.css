@@ -192,13 +192,10 @@ a.custom-card:hover {
 /* --- PRODUCTOS --- */
 
 .barra-contenedor {
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.barra-busqueda {
-  display: flex;
 }
 
 .contenedor-productos {
@@ -262,8 +259,15 @@ a.custom-card:hover {
   padding: 10px;
 }
 
-.flechas {
-  width: 30px;
+.flechaDer {
+  width: 50px;
+  transform: scaleX(-1)
+}
+
+.flechaIzq {
+  width: 50px;
+
+  
 }
 
 .imagen-busqueda {
