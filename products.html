@@ -38,9 +38,11 @@
   </nav>
   <main class="pb-5 container">
     <form id="formulario-busqueda" action="/search" method="get">
-      <div class="barra-busqueda">
-        <img src="./img/search-icon.png" alt="Buscar" class="imagen-busqueda">
-        <input type="text" id="entrada-busqueda" name="query" placeholder="Buscar" required>
+      <div class="barra-contenedor">
+        <div class="barra-busqueda">
+          <img src="./img/search-icon.png" alt="Buscar" class="imagen-busqueda">
+          <input type="text" id="entrada-busqueda" name="query" placeholder="Buscar" required>
+        </div>
       </div>
 
     <!--
@@ -56,8 +58,8 @@
         <!-- Los productos se insertarán acá mediante fetch -->
       </div>
     </div>
-    <img class="flechaIzq" src="./img/flecha-izquierda.png" alt="flecha izquierda">
     <img class="flechaDer" src="./img/flecha-derecha.png" alt="flecha derecha">
+    <img class="flechaIzq" src="./img/flecha-derecha.png" alt="flecha izquierda">
   </main>
   <footer class="text-muted">
     <div class="container">
