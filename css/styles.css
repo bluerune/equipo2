@@ -1,190 +1,117 @@
-.jumbotron,
-.card-body,
-.container,
-.site-header {
-  font-family: 'Verdana', serif !important;
+body {
+    margin: 0;
+    background: #FFFFFF;
 }
 
-.jumbotron .display-4 {
-  font-weight: bold;
+.titulo-login {
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 476px;
+    top: 100px;
 }
 
-nav a {
-  text-decoration: none;
+h1 {
+    font-family: 'Laila';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 74.4px;
+    text-align: center;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.div-username {
+    display: flex;
+    justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+.div-password {
+    display: flex;
+    justify-content: center;
 }
 
-.jumbotron {
-  height: 50vh;
-  padding: 5em inherit;
-  margin-bottom: 0;
-  background-color: #53C0FB;
-  background: url('../img/cover_back.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: black;
-  font-weight: bold;
+.div-username input {
+    position: absolute;
+    width: 408px;
+    height: 49px;
+    top: 290px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
+#icono-llave {
+    position: absolute;
+    left: 36%;
+    right: 62.42%;
+    top: 63%;
+    bottom: 38.73%;
 }
 
-.jumbotron p:last-child {
-  margin-bottom: 0;
+.div-password input {
+    position: absolute;
+    width: 408px;
+    height: 49px;
+    top: 390px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.jumbotron-heading {
-  font-weight: 300;
+#icono-usuario {
+    position: absolute;
+    left: 36%;
+    right: 62.42%;
+    top: 47%;
+    bottom: 38.73%;
 }
 
-.jumbotron .container {
-  max-width: 40rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  text-shadow: 1px 1px 2px grey;
+.div-username input::placeholder {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    color: #C9C9C9;
 }
 
-.jumbotron .lead {
-  font-size: 38px;
+.div-password input::placeholder {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+    color: #C9C9C9;
 }
 
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.div-button {
+    display: flex;
+    justify-content: center;
 }
 
-footer p {
-  margin-bottom: .25rem;
+.div-button input {
+    position: absolute;
+    width: 151px;
+    height: 38px;
+    top: 505px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
 }
 
-.site-header a {
-  color: white;
-  transition: ease-in-out color .15s;
-}
 
-.site-header .dropdown-menu a {
-  color: black;
-}
-
-.dropzone {
-  border: 2px dashed #0087F7;
-  border-radius: 5px;
-  background: white;
-}
-
-.img-fit {
-  max-height: 100%;
-}
-
-.alert {
-  position: fixed;
-  top: 80px;
-  width: 50%;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
-.lds-ring {
-  display: inline-block;
-  position: relative;
-  width: 64px;
-  height: 64px;
-  top: 50%;
-  left: 50%;
-}
-
-.cursor-active {
-  cursor: pointer;
-}
-
-.left {
-  float: left;
-  padding: 4px;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.lds-ring div {
-  box-sizing: border-box;
-  display: block;
-  position: absolute;
-  width: 51px;
-  height: 51px;
-  margin: 6px;
-  border: 6px solid #fff;
-  border-radius: 50%;
-  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
-}
-
-.lds-ring div:nth-child(1) {
-  animation-delay: -0.45s;
-}
-
-.lds-ring div:nth-child(2) {
-  animation-delay: -0.3s;
-}
-
-.lds-ring div:nth-child(3) {
-  animation-delay: -0.15s;
-}
-
-@keyframes lds-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-#spinner-wrapper {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1021;
-  display: none;
-}
-
-main {
-  min-height: calc(100vh - 210px);
-}
-
-a.custom-card,
-a.custom-card:hover {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-.checked {
-  color: orange;
+.btn-ingresar:hover {
+    background: #00A3FF;
+    cursor: pointer;
 }
