@@ -259,15 +259,19 @@ a.custom-card:hover {
   padding: 10px;
 }
 
+.flechas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .flechaDer {
   width: 50px;
-  transform: scaleX(-1)
+  transform: scaleX(-1);
 }
 
 .flechaIzq {
-  width: 50px;
-
-  
+  width: 50px; 
 }
 
 .imagen-busqueda {
