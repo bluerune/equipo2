@@ -192,7 +192,7 @@ a.custom-card:hover {
 /* --- PRODUCTOS --- */
 
 .barra-contenedor {
-  height: 180px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +201,7 @@ a.custom-card:hover {
 .contenedor-productos {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
 }
 
@@ -218,17 +218,15 @@ a.custom-card:hover {
   flex: 0 0 30%; 
   background-color: #f9f9f9;
   border: 1px solid #ccc;
-  border-radius: 8px;
-
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   text-align: left;
-  transition: transform 0.2s;
 }
 
 .imgProducto {
   width: 100%;
   height: auto;
-  border-radius: 8px 8px 0 0;
+  border-radius: 10px 10px 0 0;
   margin-bottom: 20px;
 }
 
@@ -259,15 +257,20 @@ a.custom-card:hover {
   padding: 10px;
 }
 
+.flechas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .flechaDer {
   width: 50px;
-  transform: scaleX(-1)
+  transform: scaleX(-1);
 }
 
 .flechaIzq {
-  width: 50px;
-
-  
+  width: 50px; 
 }
 
 .imagen-busqueda {
