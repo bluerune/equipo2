@@ -40,12 +40,10 @@
     <form id="formulario-busqueda" action="/search" method="get">
       <div class="barra-busqueda">
         <img src="./img/search-icon.png" alt="Buscar" class="imagen-busqueda">
-        <input type="text" id="entrada-busqueda" name="query" placeholder="" required>
+        <input type="text" id="entrada-busqueda" name="query" placeholder="Buscar" required>
       </div>
-      <div>
-        <img src="./img/flecha-derecha.png">
-        <img src="./img/flecha-derecha.png">
-      </div>
+      <img class="flechas" src="./img/flecha-izquierda.png" alt="flecha izquierda">
+      <img class="flechas" src="./img/flecha-derecha.png" alt="flecha derecha">
 
     <!--
     <div class="container">
@@ -55,10 +53,11 @@
     </div> -->
 
     <!-- Contenedor de los productos -->
-    <div id="dataContainer">
-
+    <div class="contenedor-productos">
+      <div id="dataContainer" class="fila-productos">
+        <!-- Los productos se insertarán acá mediante fetch -->
+      </div>
     </div>
-
   </main>
   <footer class="text-muted">
     <div class="container">
