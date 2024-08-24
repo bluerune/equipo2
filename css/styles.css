@@ -191,6 +191,16 @@ a.custom-card:hover {
 
 /* --- PRODUCTOS --- */
 
+.barra-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra-busqueda {
+  display: flex;
+}
+
 .contenedor-productos {
   display: flex;
   align-items: center;
@@ -253,7 +263,7 @@ a.custom-card:hover {
 }
 
 .flechas {
-  width: 10px;
+  width: 30px;
 }
 
 .imagen-busqueda {
