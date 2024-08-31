@@ -8,7 +8,10 @@
   
   <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <link href="login.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -22,12 +25,12 @@
       </div>
       <form class="form-container">
         <div class="div-username">
-          <input type="text" name="username" class="username" placeholder="Usuario" required>
-          <img src="/account_circle.png" alt="Ícono de un perfil de usuario" id="icono-usuario">
+          <input type="text" name="username" class="username" id="username" placeholder="Usuario" required>
+          <img src="./img/account_circle.png" alt="Ícono de un perfil de usuario" id="icono-usuario">
         </div>
         <div class="div-password">
-          <input type="password" class="password" placeholder="Contraseña" name="password" required>
-          <img src="key.png" alt="Ícono de una llave" id="icono-llave">
+          <input type="password" class="password" placeholder="Contraseña" id="password" name="password" required>
+          <img src="./img/key.png" alt="Ícono de una llave" id="icono-llave">
         </div>
         <div class="div-button">
           <input class="btn-ingresar" type="button" id="ingresar" value="Ingresar">
