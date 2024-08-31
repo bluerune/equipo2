@@ -5,7 +5,7 @@ const dataContainer = document.getElementById("dataContainer");
 function mostrarData(dataURL) {
     for(const item of dataURL) {
         dataContainer.innerHTML += `
-        <div class="producto">
+        <div class="producto col-lg-4 col-md-6 col-12">
         <img src="${item.image}" alt="${item.name}" class="imgProducto">
         <h2 class="nameProducto">${item.name}</h2>
         <p class="descProducto">${item.description}</p>
