@@ -277,3 +277,38 @@ a.custom-card:hover {
 .imagen-busqueda {
   width: 20px;
 }
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 992px) { 
+  #dataContainer {
+    flex-wrap: nowrap;
+  }
+
+  .producto {
+    flex: 0 0 33.33%; 
+    max-width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+  #dataContainer {
+    flex-wrap: wrap;
+  }
+
+  .producto {
+    flex: 0 0 50%; 
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  #dataContainer {
+    flex-wrap: wrap;
+  }
+
+  .producto {
+    flex: 0 0 100%; 
+    max-width: 100%;
+  }
+}
