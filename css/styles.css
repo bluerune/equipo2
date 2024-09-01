@@ -207,15 +207,12 @@ a.custom-card:hover {
 
 #dataContainer {
   display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px; 
 }
 
-.producto {
-  box-sizing: border-box;
-  flex: 0 0 30%; 
+.producto { 
   background-color: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 11px;
@@ -264,13 +261,13 @@ a.custom-card:hover {
   margin-top: 10px;
 }
 
-.flechaDer {
+.flechaDer, .flechaIzq {
   width: 50px;
-  transform: scaleX(-1);
+  cursor: pointer;
 }
 
 .flechaIzq {
-  width: 50px; 
+  transform: scaleX(-1);
 }
 
 .imagen-busqueda {
