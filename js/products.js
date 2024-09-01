@@ -24,3 +24,14 @@ fetch (dataURL_Autos)
 .catch(error => {
   console.error('Problema con tu operación de fetch', error);
 });
+
+const flechaDer = document.querySelector('.flechaDer');
+const flechaIzq = document.querySelector('.flechaIzq');
+
+flechaDer.addEventListener('click', () => {
+  dataContainer.scrollLeft += 300;
+});
+
+flechaIzq.addEventListener('click', () => {
+  dataContainer.scrollLeft -= 300;
+});
